@@ -3,7 +3,7 @@ from pathlib import Path
 
 import django_heroku
 from decouple import config, Csv
-from .sec import *
+
 from datetime import timedelta
 import dj_database_url
 
